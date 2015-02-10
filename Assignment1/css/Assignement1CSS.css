@@ -1,0 +1,21 @@
+body {
+  font-family: arial;
+  background-color: #FFFFFF;
+  padding: 15px, 5px, 5px, 5px;
+  border-bottom: 1px solid #000;
+  text-align: center;}
+
+  h1 {
+    background-color: #FFFFFF;}
+    color: #1521A3;}
+
+  ul {
+    width: 570px;
+    padding: 15px;
+    marign: 0px auto 0px auto;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center; }
+li{
+  display:inline
+  margin-right:0px 3px;}
