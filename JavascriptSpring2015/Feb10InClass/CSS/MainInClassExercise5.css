@@ -1,0 +1,16 @@
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	color: blue;
+}
+
+h1 {
+
+	color: orange;
+	font-size: 55;
+	background-color: blue;
+}
+
+div {
+	margin: 200px 0px 200px 0px;
+}
