@@ -22,7 +22,7 @@ h3{
 }
 
 ul{
-	display: inline;
+	display: inline-block;
 }
 
 
@@ -34,7 +34,7 @@ li {
 	font-family: avenir;
 	background-color: #f59159;
 	padding: 15px;
-	margin: 15px 0px 15px 0px;
+	margin: 15px 0px 0px 0px;
 }
 
 li:hover  { 
@@ -48,4 +48,5 @@ li:hover  {
 
 .img1{
 float: right;
+margin: 0px 500px 0px 0px;
 }
