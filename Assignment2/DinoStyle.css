@@ -3,8 +3,16 @@ h1 {
 	font-size: 65;
 	color: #bc1b3a;
 	text-transform: uppercase;
-	padding: 25px 470px 25px 470px;
+	width: 1250px;
+	padding: 25px;
+	text-align: center;
+	float: center;
 	background-color: #f3c831;
+	position: fixed;
+}
+
+h3{
+	display: inline;
 }
 
 .maintext {
@@ -14,7 +22,7 @@ h1 {
 }
 
 ul{
-display: inline;
+	display: inline;
 }
 
 
@@ -26,10 +34,18 @@ li {
 	font-family: avenir;
 	background-color: #f59159;
 	padding: 15px;
-	margin: 0px 15px 15px 0px;
-
+	margin: 15px 0px 15px 0px;
 }
 
 li:hover  { 
-	background-color: blue;
+	background-color: #bc1b3a;
+}
+
+.top{
+	 height: 60px;
+	 width: 1250px;
+}
+
+.img1{
+float: right;
 }
