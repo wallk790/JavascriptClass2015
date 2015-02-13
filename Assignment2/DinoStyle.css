@@ -10,30 +10,41 @@ h1 {
 	background-color: #f3c831;
 }
 
+h1.topbar{
+	color: white;
+	text-transform: uppercase;
+	width: 1200px;
+	padding: 25px;
+	text-align: center;
+	float: center;
+	background-color: white;
+}
+
 
 
 .maintext {
-	color: blue;
-	font-family: avenir, helvetica;
-	background: yellow;
+	background: #069976;
+	width: 400px;
+	padding: 15px;
+	height: 400px;
+	float: left;
 }
 
 
 p {
 	font-family: avenir;
 	float: left;
-	width: 200px;
+	width: 75px;
+	margin: 0px 50px 0px 50px;
+	padding: 50px 0px 50px 0px;
+	color: #f2ddd0;
+	text-transform:lowercase;
 }
 
 .img1{
 float: left;
 margin-right: 15px;
-}
-
-ul{
-	margin: 15px 0px 15px 0px;
-	float: left;
-	display: inline-block;
+margin-left: 15px;
 }
 
 
@@ -45,10 +56,25 @@ li {
 	font-family: avenir;
 	background-color: #f59159;
 	padding: 15px;
-	width: 175px;
-	margin: 15px 15px 0px 0px;
+	width: 225px;
+	margin: 25px 15px 25px 0px;
 }
 
 li:hover  { 
 	background-color: #bc1b3a;
 }
+
+div.navBox{
+	background-color: #244e88;
+	height: 625px;
+	width: 285px;
+	float: left;
+	
+}
+
+ul{
+	margin: 0px 0px 15px 0px;
+	float: left;
+	display: inline-block;
+}
+
