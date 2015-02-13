@@ -1,0 +1,51 @@
+p{
+	color: blue;
+}
+
+div{
+	background-color: #244e88;
+	max-width:1500px;
+	padding: 0px 0px 25px 0px;
+}
+
+
+h1 {
+	font-family: avenir, helvetica;
+	font-size: 65;
+	color: #bc1b3a;
+	text-transform: uppercase;
+	width: 1200px;
+	padding: 25px;
+	text-align: center;
+	float: center;
+	background-color: #f3c831;
+}
+
+img.pic2{
+	margin: 80px 0px 0px 15px;
+}
+
+img.pic1{
+	margin: 80px 15px 0px 85px;
+}
+
+img.pic3{
+	margin-left: 80px;
+	margin-top: 25px;
+
+}
+
+img.pic4{
+	margin-left: 80px;
+	margin-top: 5px;
+}
+
+.toptext{
+	background-color: #f2ddd0;
+	float: right;
+	width: 715px;
+	height: 275px;
+	margin: 25px 80px 25px 0px;
+}
+
+

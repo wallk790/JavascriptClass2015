@@ -56,8 +56,9 @@ li {
 	font-family: avenir;
 	background-color: #f59159;
 	padding: 15px;
-	width: 225px;
-	margin: 25px 15px 25px 0px;
+	width: 175px;
+	margin: 28px 15px 25px 0px;
+	text-align: center;
 }
 
 li:hover  { 
@@ -66,7 +67,7 @@ li:hover  {
 
 div.navBox{
 	background-color: #244e88;
-	height: 625px;
+	height: 430px;
 	width: 285px;
 	float: left;
 	
