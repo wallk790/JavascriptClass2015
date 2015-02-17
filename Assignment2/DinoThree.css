@@ -20,7 +20,62 @@ h1.topbar{
 	background-color: white;
 }
 
-div {
+div.images{
+	margin: 15px 15px 15px 25px;
+	background-color: #069976;
+	padding: 15px;
+}
+
+div.images1{
+	margin: 15px 15px 15px 25px;
+	background-color: #f59159;
+	padding: 15px;
+}
+
+img.images1a{
+margin-right:120px;
+}
+
+div{
+	background-color: #f2ddd0;
+	max-width:1500px;
+	padding: 15px 0px 25px 0px;
+}
 
 
+ul {
+	list-style-type: none;
+	margin: 0px 0px 15px 0px;
+	float: left;
+	background-color: #bc1b3a;
+	float: center;
+	padding: 10px;
+
+
+}
+
+li{
+	display: inline;
+	margin: 25px;
+	padding: 15px;
+	text-transform: uppercase;
+	font-family: avenir;
+	color: #f2ddd0;
+
+	}
+
+li:hover  { 
+	color: #f3c831;
+}
+
+p{
+	background-color: #f2ddd0;
+	max-width: 713px;
+	position: absolute;
+	padding: 15px 15px 8px 15px;
+	text-align: center;
+	font-size: 65px;
+	font-family: avenir, helvetica;
+	color: #244e88;
+	text-transform: uppercase;
 }
