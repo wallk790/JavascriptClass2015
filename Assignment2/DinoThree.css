@@ -1,0 +1,26 @@
+h1 {
+	font-family: avenir, helvetica;
+	font-size: 65;
+	color: #bc1b3a;
+	text-transform: uppercase;
+	width: 1200px;
+	padding: 25px;
+	text-align: center;
+	float: center;
+	background-color: #f3c831;
+}
+
+h1.topbar{
+	color: white;
+	text-transform: uppercase;
+	width: 1200px;
+	padding: 25px;
+	text-align: center;
+	float: center;
+	background-color: white;
+}
+
+div {
+
+
+}
