@@ -26,7 +26,7 @@ h1.topbar{
 	background: #069976;
 	width: 400px;
 	padding: 15px;
-	height: 400px;
+	height: 415px;
 	float: left;
 }
 
@@ -34,9 +34,9 @@ h1.topbar{
 p {
 	font-family: avenir;
 	float: left;
-	width: 75px;
+	width: 275px;
 	margin: 0px 50px 0px 50px;
-	padding: 50px 0px 50px 0px;
+	padding: 100px 0px 65px 0px;
 	color: #f2ddd0;
 	text-transform:lowercase;
 }
@@ -67,7 +67,7 @@ li:hover  {
 
 div.navBox{
 	background-color: #244e88;
-	height: 430px;
+	height: 445px;
 	width: 285px;
 	float: left;
 	

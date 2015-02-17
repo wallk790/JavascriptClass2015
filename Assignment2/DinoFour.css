@@ -42,3 +42,26 @@ div{
 img {
 	margin: 0px 0px 0px 350px;
 }
+
+p.title{
+	font-size: 65px;
+	font-family: avenir;
+	text-transform: uppercase;
+	text-align: center;
+	color: #f2ddd0;
+	background-color: #069976;
+	padding: 100px 0px 100px 0px;
+	marign-top:0px;
+}
+
+div.counter{
+	
+	background-color: #f3c831;
+	font-size: 35px;
+	color: #bc1b3a;
+	text-align: center;
+	font-family: avenir, helvetica;
+	max-height: 375px;
+	padding: 25px;
+
+}

@@ -12,15 +12,47 @@
 	</h1>
 
 	<ul class="navBox">
-					<li> Characteristics  </li>
-					<li> Personality </li>
-					<li> Everyday Dino </li>
-					<li> Party Dino </li>					
-					<li> Notable Dinos </li>
-	</ul>
+		<li> <a href="DinoHome.html"> Home  </a> </li>
+		<li> <a href="DinoArt.html"> Characteristics </a> </li>
+		<li>  <a href="DinoTwo.html"> Personality  </a> </li>
+		<li> <a  href="DinoParty.html"> Party Dino </a> </li>
+		<li> <a href="https://m.youtube.com/watch>v=BfwVlmSP7IY"> The Movie </a> </li>
+		<li> Notable Dinos </li>
+	</ul>					
 
-	<div>
-	<img src="img/party.gif"
+	<p class="title"> The Party Dino
+		</p>
+
+<div>
+	<img src="img/party.gif">
 </div>
+
+
+<div class="counter">
+<script type="text/javascript">
+
+today = new Date();
+
+BigDay = new Date("March 12, 2015");
+
+msPerDay = 24 * 60 * 60 * 1000 ;
+
+timeLeft = (BigDay.getTime() - today.getTime());
+
+e_daysLeft = timeLeft / msPerDay;
+
+daysLeft = Math.floor(e_daysLeft);
+
+e_hrsLeft = (e_daysLeft - daysLeft)*24;
+
+hrsLeft = Math.floor(e_hrsLeft);
+
+minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+
+document.write("There are only<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> Until The Next Dino Party!<P>");
+
+</script>
+</div>
+
 
 </body>

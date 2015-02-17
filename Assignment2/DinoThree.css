@@ -79,3 +79,18 @@ p{
 	color: #244e88;
 	text-transform: uppercase;
 }
+
+p.text{
+	background-color: #f3c831;
+	width: 850px;
+	text-align: center;
+	font-size: 65px;
+	font-family: avenir, helvetica;
+	color: #244e88;
+	float: left;
+	margin: 5px 0px 0px 415px;
+	text-transform: lowercase;
+	padding: 45px 45px 45px 15px;
+
+
+}
