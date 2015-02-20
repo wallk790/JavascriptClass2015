@@ -8,10 +8,6 @@ html, body {
 	height: 100%;
 }
 
-.navbar{
-background-color: #fd0650;
-}
-
 .box{
 	width:100%;
 	height:100%;
@@ -22,44 +18,94 @@ background-color: #fd0650;
 	height:100%;
 }
 
+/* Slide no. 1 */
+
 .image1{
 	background: url("img/slide1.jpg") no-repeat;
 	background-size: cover;
 }
+
+/* Slide no. 2 */
 
 .image2{
 	background: url("img/slide2.jpg") no-repeat;
 	background-size: cover;
 }
 
+/* Slide no. 3 */
 .image3{
 	background: url("img/slide3.jpg") no-repeat;
 	background-size: cover;
 }
 
+.image3text1 {
+	position: relative;
+	top: 200px;
+	left: 700px;
+	font-size: 45px;
+	font-family: avenir, helvetica;
+	color: #feebcb;
+}
+
+.image3text2 {
+	position: relative;
+	top: 225px;
+	left: 760px;
+	font-size: 25px;
+	font-family: avenir, helvetica;
+	color: #feebcb;
+}
+
+.image3text3 {
+	position: relative;
+	top: 175px;
+	left: 700px;
+	font-size: 25px;
+	font-family: avenir, helvetica;
+	color: #feebcb;
+}
+
+/* footer */
 footer{
 
 }
 
-h1{
 
-}
+/* Navigation Bar */
 
-h3{
-	color: #feebcb;
-
+.navbar{
+background-color: #fd0650;
+display: inline;
 }
 
 ul {
 background-color: #fd0650;
-height: 75px;
+height: 100px;
 width: 100%;
 position: fixed;
+text-align: center;
 }
 
 li{
+	font-family: avenir, helvetica, times;
+	text-transform: uppercase;
 	display: inline;
 	color: #feebcb;
-	padding: 15px 25px 25px 0px;
+	padding: 15px 15px 15px 0px;
+	margin: 10px;
 
 }
+
+p{
+display: inline;
+}
+
+.fullmenu{
+color: #fdac36;
+font-weight: bold;
+}
+
+.over{
+	color: black;
+	text-decoration: line-through;
+	}
