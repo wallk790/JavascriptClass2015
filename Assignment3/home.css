@@ -25,11 +25,61 @@ html, body {
 	background-size: cover;
 }
 
+.image1text1{
+position: relative;
+top: 175px;
+left: 50px;
+color: black;
+font-family: avenir, helvetica;
+font-size: 25px;
+text-shadow: 1px 1px 0px #000000;
+}
+
+.image1text2{
+position: relative;
+top: 185px;
+left: 50px;
+color: #fd0650;
+font-family: avenir, helvetica;
+font-size: 65px;
+text-shadow: .5px .5px 0px #000000;
+}
+
+.image1text3{
+position: relative;
+top: 195px;
+left: 50px;
+color: black;
+font-family: avenir, helvetica;
+font-size: 25px;
+text-shadow: 1px 1px 0px #000000;
+}
+
+
+
 /* Slide no. 2 */
 
 .image2{
 	background: url("img/slide2.jpg") no-repeat;
 	background-size: cover;
+}
+
+.image2text1{
+position: relative;
+top: 210px;
+left: 100px;
+color: #fd0650;
+font-family: avenir, helvetica;
+font-size: 45px;
+}
+
+.image2text2{
+position: relative;
+top: 220px;
+left: 150px;
+color: #feebcb;
+font-family: avenir, helvetica;
+font-size: 65px;
 }
 
 /* Slide no. 3 */
