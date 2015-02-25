@@ -146,6 +146,10 @@ li{
 
 }
 
+li:hover{
+	color: #1eb68c;
+}
+
 p{
 display: inline;
 }
