@@ -146,7 +146,7 @@ li{
 
 }
 
-li:hover{
+a:hover{
 	color: #1eb68c;
 }
 
@@ -163,3 +163,8 @@ font-weight: bold;
 	color: black;
 	text-decoration: line-through;
 	}
+
+a{
+	color: #feebcb; 
+text-decoration: none;
+}
