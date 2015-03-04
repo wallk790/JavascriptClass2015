@@ -1,0 +1,43 @@
+
+* {padding: 0px; margin: 0; }
+
+.content {
+	width: 100%;
+	background-color: #333;
+}
+
+.box {
+width: 25%;
+padding-top: 25%;
+float: left;
+
+}
+
+.box-1{
+background-color: #f00;
+}
+
+.box-2{
+background-color: #0f0;
+}
+
+.box-3{
+background-color: #f00;
+}
+
+@media (max-width: 1024px) {
+	.box {
+	width: 40%;
+	padding-top: 40%;
+	margin: 4.1%
+	}
+}
+
+@media (max-width: 480px) {
+	.box {
+	width: 75%;
+	padding-top: 75%;
+	margin: 12.5%
+	}
+}
+
