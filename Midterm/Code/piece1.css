@@ -58,19 +58,21 @@ display: inline;
 .image3{
 	padding-top: 100px;
 	width: 80%;
-	height:100%;
+	height:120%;
 	padding-left: 100px;
+
 }
 
 .hoverText{
 	font-family: ZXX;
 	font-size: 95px;
-	color: #fff;
+	color: #000;
 	position: relative;
-	top: -300px;
+	top: -400px;
 	left: 15px;
 	text-align: center;
 	opacity: 0; 
+	transition: opacity 0.3s;
 }
 
 .hoverText:hover {
@@ -78,7 +80,11 @@ display: inline;
 	font-size: 95px;
 	color: #000;
 	opacity: 100; 
+	background-color: #fff; 
+
 }
+
+
 
 /* IMAGES OF FINAL WORK */
 
@@ -86,6 +92,35 @@ display: inline;
 .image5{
 	width: 80%;
 	padding-left: 100px;
+	margin-bottom: 50px;
+	height: 50%;
+}
+
+.image6{
+	width: 80%;
+	padding-left: 100px;
+	height: 50%;
+}
+
+.image7{
+	width: 80%;
+	padding-left: 100px;
+	height: 90%;
+}
+
+
+.image8{
+	width: 80%;
+	padding-left: 100px;
+	margin-top: 25px;
+
+}
+
+.image9{
+	width: 80%;
+	padding-left: 100px;
+	margin-top: 25px;
+
 }
 
 
