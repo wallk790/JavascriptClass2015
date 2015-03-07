@@ -9,8 +9,9 @@ html, body {
 }
 
 .image{
-	width: 100%;
+	width: 85%;
 	height:100%;
+	padding-left: 100px;
 }
 
 
@@ -54,15 +55,6 @@ display: inline;
 }
 
 
-
-.image3{
-	padding-top: 100px;
-	width: 85%;
-	height:120%;
-	padding-left: 100px;
-
-}
-
 .hoverText{
 	font-family: ZXX;
 	font-size: 95px;
@@ -84,57 +76,6 @@ display: inline;
 
 }
 
-
-
-/* IMAGES OF FINAL WORK */
-
-
-.image5{
-	width: 85%;
-	padding-left: 100px;
-	margin-bottom: 50px;
-	height: 50%;
-}
-
-.image6{
-	width: 85%;
-	padding-left: 100px;
-	height: 50%;
-}
-
-.image7{
-	width: 85%;
-	padding-left: 100px;
-	height: 90%;
-}
-
-
-.image8{
-	width: 85%;
-	padding-left: 100px;
-	margin-top: 25px;
-
-}
-
-.image9{
-	width: 85%;
-	padding-left: 100px;
-	margin-top: 25px;
-
-}
-
-
-
-}
-
-/* VIDEO OF FINAL WORK */
-
-/* IN PROGRESS WORK */
-
-.image5{
-	width: 85%;
-	padding-left: 100px;
-}
 
 /* Navigation Bar */
 
