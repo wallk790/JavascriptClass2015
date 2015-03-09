@@ -1,0 +1,151 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.image{
+	width: 100%;
+	height:100%;
+}
+
+
+/* IMAGES OF FINAL WORK */
+
+.image3{
+	width: 85%;
+	height: 89%;
+	margin-left: 100px;
+	margin-top: 75px;
+	margin-bottom: 100px;
+	padding-bottom: 50px;
+}
+
+.image4{
+	width: 85%;
+	height: 195%;
+	margin-left: 100px;
+	margin-top: 75px;
+	margin-bottom: 100px;
+	padding-bottom: 50px;
+}
+
+
+
+
+.hoverText{
+	font-family: ZXX;
+	font-size: 95px;
+	color: #000;
+	position: relative;
+	top: -400px;
+	left: 15px;
+	text-align: center;
+	opacity: 0; 
+	transition: opacity 0.3s;
+}
+
+.hoverText:hover {
+	font-family: ZXX;
+	font-size: 95px;
+	color: #000;
+	opacity: 100; 
+	background-color: #fff; 
+
+}
+
+
+/* TOP SECTION*/
+
+.image2{
+margin-left: 100px;
+display: inline;
+}
+
+.titleOfWork{
+	background: #000;
+	color: #fff;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-left: 25px;
+	margin-right: 100px;
+	height: 45px;
+	width: 500px;
+	float: right;
+
+
+}
+
+.titleText{
+	font-family: ZXX;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.description{
+	margin-top: 85px;
+	font-family: ZXX;
+	font-size: 18px;
+	background: #fff;
+	color: #000;
+	text-align: left;
+}
+
+
+/* Navigation Bar */
+
+.image1{
+	width: 100%;
+	height: 250px;
+}
+
+.navbar{
+display: inline;
+width: 100%;
+}
+
+h1{
+	background-color: #fff;
+	font-family: ZXX;
+	color: #000;
+	text-align: center;
+	font-size: 95px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+ul {
+height: 50px;
+width: 100%;
+text-align: center;
+}
+
+
+li {
+	background-color: #fff;
+	color: #000;
+	padding: 25px 15px 5px 0px;
+	margin: 15px;
+	font-size: 24px;
+	display: inline;
+	font-family: ZXX;
+	text-transform: uppercase; 
+
+}
+
+a:hover{
+	color: #fd971b;
+}
+
+
+a{
+color: #000; 
+text-decoration: none;
+}
