@@ -18,35 +18,40 @@ html, body {
 
 .image3{
 	width: 85%;
-	height: 89%;
+	height: 90%;
 	margin-left: 100px;
 	margin-top: 75px;
 	margin-bottom: 25px;
+	border-style: solid;
+	border-color: #000;
 }
 
-
-
-
 .hoverText{
-	font-family: ZXX;
-	font-size: 95px;
-	color: #000;
+	font-family: raleway, avenir;
+	font-size: 24px;
 	position: relative;
-	top: -400px;
-	left: 15px;
+	top: -330px;
 	text-align: center;
 	opacity: 0; 
+	padding-left: 10px;
+}
+
+.hoverTextBackground:hover{
+	position: relative;
+	top: -330px;
+	text-align: center;
 	transition: opacity 0.3s;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .hoverText:hover {
-	font-family: ZXX;
-	font-size: 95px;
-	color: #000;
-	opacity: 100; 
-	background-color: #fff; 
+	font-family: raleway, avenir;
+	color: #fff;
+	opacity: 100;  
+	padding: 25px;
 
 }
+
 
 
 /* TOP SECTION*/
@@ -54,6 +59,7 @@ html, body {
 .image2{
 margin-left: 100px;
 display: inline;
+
 }
 
 .titleOfWork{
@@ -73,7 +79,7 @@ display: inline;
 }
 
 .titleText{
-	font-family: ZXX;
+	font-family:raleway, avenir;
 	font-size: 36px;
 	text-transform: uppercase;
 	text-align: center;
@@ -81,7 +87,7 @@ display: inline;
 
 .description{
 	margin-top: 85px;
-	font-family: ZXX;
+	font-family: raleway, avenir;
 	font-size: 18px;
 	background: #fff;
 	color: #000;
@@ -115,6 +121,7 @@ ul {
 height: 50px;
 width: 100%;
 text-align: center;
+padding-bottom: 50px;
 }
 
 
@@ -125,7 +132,7 @@ li {
 	margin: 15px;
 	font-size: 24px;
 	display: inline;
-	font-family: ZXX;
+	font-family: raleway, avenir;
 	text-transform: uppercase; 
 
 }
