@@ -115,6 +115,7 @@ display: inline;
 
 }
 
+/*Putting text over image*/
 
 .hoverText{
 	font-family: raleway, avenir;
@@ -129,7 +130,7 @@ display: inline;
 .hoverTextBackground:hover{
 	position: relative;
 	top: -425px;
-	text-align: center;
+	text-align: left;
 	transition: opacity 0.3s;
 	background-color: rgba(0, 0, 0, 0.7);
 }
@@ -139,7 +140,6 @@ display: inline;
 	color: #fff;
 	opacity: 100;  
 	padding: 25px;
-
 }
 
 /* VIDEO OF FINAL WORK */

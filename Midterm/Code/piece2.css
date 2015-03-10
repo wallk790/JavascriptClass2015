@@ -26,6 +26,8 @@ html, body {
 	border-color: #000;
 }
 
+/*text over image*/ 
+
 .hoverText{
 	font-family: raleway, avenir;
 	font-size: 24px;
@@ -39,7 +41,7 @@ html, body {
 .hoverTextBackground:hover{
 	position: relative;
 	top: -330px;
-	text-align: center;
+	text-align: left;
 	transition: opacity 0.3s;
 	background-color: rgba(0, 0, 0, 0.7);
 }
@@ -48,7 +50,7 @@ html, body {
 	font-family: raleway, avenir;
 	color: #fff;
 	opacity: 100;  
-	padding: 25px;
+	padding: 75px;
 
 }
 
@@ -74,8 +76,6 @@ display: inline;
 	height: 45px;
 	width: 500px;
 	float: right;
-
-
 }
 
 .titleText{
@@ -83,10 +83,11 @@ display: inline;
 	font-size: 36px;
 	text-transform: uppercase;
 	text-align: center;
+	margin-top: 25px;
 }
 
 .description{
-	margin-top: 85px;
+	margin-top: 115px;
 	font-family: raleway, avenir;
 	font-size: 18px;
 	background: #fff;

@@ -18,11 +18,35 @@ html, body {
 	height:100%;
 }
 
-.image1{
-	margin-left: 25%;
+
+/*Text*/
+
+p{
+font-family: raleway, avenir, helvetica;
+font-size: 20px;
+position: absolute;
+width: 35%;
+left: 10%;
 }
 
+.paragraph2{
+position: absolute;
+width: 35%;
+top: 550px;
+left: 10%;
+}
 
+.contact{
+	text-decoration: none;
+	background-color: yellow;
+	color: #000;
+}
+
+img{
+position: absolute;
+width: 40%;
+left: 50%;
+}
 /* Navigation Bar */
 
 .image1{
