@@ -38,7 +38,7 @@ display: inline;
 }
 
 .titleText{
-	font-family: ZXX;
+	font-family: raleway, avenir;
 	font-size: 36px;
 	text-transform: uppercase;
 	text-align: center;
@@ -46,7 +46,7 @@ display: inline;
 
 .description{
 	margin-top: 85px;
-	font-family: ZXX;
+	font-family: raleway, avenir;
 	font-size: 18px;
 	background: #fff;
 	color: #000;
@@ -131,12 +131,12 @@ display: inline;
 	top: -425px;
 	text-align: center;
 	transition: opacity 0.3s;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .hoverText:hover {
 	font-family: raleway, avenir;
-	color: #000;
+	color: #fff;
 	opacity: 100;  
 	padding: 25px;
 
@@ -187,7 +187,7 @@ li {
 	margin: 15px;
 	font-size: 24px;
 	display: inline;
-	font-family: ZXX;
+	font-family: raleway, avenir;
 	text-transform: uppercase; 
 }
 
