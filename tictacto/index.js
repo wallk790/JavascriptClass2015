@@ -33,16 +33,21 @@ var player1Turn;
 function init() {
 
     buttonEvents();
-    buttonEvents2;
+    buttonEvents2();
+    player1Turn();
 
 }
 
-function buttonEvents() {
+function player1Turn() {
 
     $(".button").on('click', function(){
         player1Turn=!player1Turn;
         console.log("whose turn:" +player1Turn);
     })
+}
+
+function buttonEvents() {
+
 	
 	$button1.on('click', function() {
 
@@ -130,7 +135,9 @@ function buttonEvents2() {
     player2Option = buttonOption[0];
     //computerChoice = makeComputerChoice();
         console.log (player2Option);
+    if  (player1Turn = false) {
         $text1.text('O');
+    }
         //console.log (computerChoice);
     });
 
